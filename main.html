@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>ГАЛЕРЕЯ</title>
+    <link rel=stylesheet href=style.css>
+    <meta name="viewport" content="width=device-width"> 
+    <link rel="shortcut icon" href="./img/heart.gif" type="image/png">
+</head>
+<body>
+    <header id="hd" class="colour">
+        <img class="logo" src="./img/heart.gif" alt="">
+        <h1>
+          ❤ НАША ❤ ГАЛЕРЕЯ ❤
+        </h1>
+        <cite class="header_1">
+            💖Если тебе грустно,💖<br>
+            💖загляни сюда,💖<br>
+            💖почувствуй чувства,💖<br>
+            💖Ведь они не остынут никогда💖            
+        </cite>
+    </header>
+    <main>
+        <nav>
+           <button id="main_btn">Меню</button>
+            <ul id="main_menu" class="base_menu">
+                <li><a href="index.html">💕Топ причин, почему ты лучше всех💕</a></li>
+                <li><a href="reserves.html">😍Люблю тебя😍</a></li>
+                <li><a>❤ НАША ❤ ГАЛЕРЕЯ ❤(Ты здесь)</a></li>
+            </ul>
+        </nav>
+        <section>
+            <div class="container">
+                <article class="card">
+                <div id="wrapper">
+                    
+                    <ul class="Gallery scrollmenu">
+                        <li><a href="#image1" id="tab"><img src="./img/tab_1.jpg" alt="" title="" /></a></li>
+                        <li><a href="#image2" id="tab"><img src="./img/tab_2.jpg" alt="" title="" /></a></li>
+                        <li><a href="#image3" id="tab"><img src="./img/tab_4.jpg" alt="" title="" /></a></li>
+                        <li><a href="#image4" id="tab"><img src="./img/tab_5.jpg" alt="" title="" /></a></li>
+                    </ul>
+                     
+                    <div id="images">
+                        <div><a name="image1"></a><img src="" alt="" title="" /></div>
+                        <div><a name="image2"></a><img src="./img/gallery_1.jpg" alt="" title="" /></div>
+                        <div><a name="image3"></a><img src="./img/gallery_2.jpg" alt="" title="" /></div>
+                        <div><a name="image4"></a><img src="./img/gallery_4.jpg" alt="" title="" /></div>
+                        <div><a name="image5"></a><img src="./img/gallery_5.jpg" alt="" title="" /></div>
+                    </div>
+                </div>
+
+                <br>
+                
+                <div id="wrapper">
+                    
+                    <ul class="Gallery scrollmenu">
+                        <li><a href="#image10" id="tab"><img src="./img/tab_6.jpg" alt="" title="" /></a></li>
+                        <li><a href="#image11" id="tab"><img src="./img/tab_7.jpg" alt="" title="" /></a></li>
+                        <li><a href="#image12" id="tab"><img src="./img/tab_9.jpg" alt="" title="" /></a></li>
+                        <li><a href="#image13" id="tab"><img src="./img/tab_10.jpg" alt="" title="" /></a></li>
+                    </ul>
+                     
+                    <div id="images">
+                        <div><a name="image10"></a><img src="" alt="" title="" /></div>
+                        <div><a name="image11"></a><img src="./img/gallery_6.jpg" alt="" title="" /></div>
+                        <div><a name="image12"></a><img src="./img/gallery_7.jpg" alt="" title="" /></div>
+                        <div><a name="image13"></a><img src="./img/gallery_9.jpg" alt="" title="" /></div>
+                        <div><a name="image14"></a><img src="./img/gallery_10.jpg" alt="" title="" /></div>
+                    </div>
+                </div>
+
+                <br>
+
+                <div id="wrapper">
+                    
+                    <ul class="Gallery scrollmenu">
+                        <li><a href="#image15" id="tab"><img src="./img/tab_11.jpg" alt="" title="" /></a></li>
+                        <li><a href="#image16" id="tab"><img src="./img/tab_12.jpg" alt="" title="" /></a></li>
+                        <li><a href="#image17" id="tab"><img src="./img/tab_13.jpg" alt="" title="" /></a></li>
+                        <li><a href="#image18" id="tab"><img src="./img/tab_14.jpg" alt="" title="" /></a></li>
+                    </ul>
+                     
+                    <div id="images">
+                        <div><a name="image15"></a><img src="" alt="" title="" /></div>
+                        <div><a name="image16"></a><img src="./img/gallery_11.jpg" alt="" title="" /></div>
+                        <div><a name="image17"></a><img src="./img/gallery_12.jpg" alt="" title="" /></div>
+                        <div><a name="image18"></a><img src="./img/gallery_13.jpg" alt="" title="" /></div>
+                        <div><a name="image19"></a><img src="./img/gallery_14.jpg" alt="" title="" /></div>
+                    </div>
+                </div>
+                </article>     
+    </main>
+    <script>
+        "use strict"
+        main_btn.addEventListener("click",fOpen)
+        function fOpen() {
+    main_menu.classList.toggle("menu_open")
+    }
+    </script>
+</body>
+</html>
